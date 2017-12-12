@@ -216,7 +216,7 @@ while {true} do {
 		};
 	};
 
-	if (_fobdistance < _distfob && alive player && vehicle player == player) then {
+	if (alive player && vehicle player == player) then {
 		if (_idact_resources == -1) then {
 			_idact_resources = player addAction ["<t color='#FFFF00'>" + localize "STR_RESOURCE_GLOBAL_ACTION" + "</t>",{KP_liberation_resources_global = !KP_liberation_resources_global},"",-997,false,true,"","build_confirmed == 0"];
 		};

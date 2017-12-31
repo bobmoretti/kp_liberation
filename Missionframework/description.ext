@@ -5,6 +5,8 @@ disabledAI = true;
 
 enableDebugConsole = 1;
 allowFunctionsLog = 0;
+cba_settings_hasSettingsFile = 1;
+
 
 briefingName = $STR_MISSION_TITLE;
 overviewText = "www.killahpotatoes.de";
@@ -20,7 +22,6 @@ joinUnassigned = 1;
 #include "ui\liberation_interface.hpp"
 #include "ui\liberation_notifications.hpp"
 #include "ui\mission_params.hpp"
-#include "ace_settings.hpp"
 
 class CfgDebriefing
 {

@@ -55,21 +55,43 @@ militia_squad = [
 
 // Militia vehicles. Lightweight vehicle classnames the game will pick from randomly as sector defenders.
 militia_vehicles = [
-	"rhs_tigr_sts_msv"													//GAZ-233014 (Armed)
+	"rhs_tigr_sts_msv",													//GAZ-233014 (Armed)
+    "rhsgref_nat_uaz_ags",
+    "rhsgref_nat_uaz_dshkm",
+    "rhsgref_nat_uaz_spg9",
+    "RHS_BM21_MSV_01",
+    "RHS_Ural_Zu23_MSV_01",
+    "rhs_gaz66_zu23_msv",
+    "rhsgref_BRDM2_HQ_ins_g",
+    "rhsgref_ins_g_btr60",
+    "rhs_sprut_vdv"
 ];
 
 // All enemy vehicles that can spawn as sector defenders and patrols at high enemy combat readiness (aggression levels).
 opfor_vehicles = [
 	"rhs_tigr_sts_msv",													//GAZ-233014 (Armed)
-	"rhs_tigr_sts_msv",													//GAZ-233014 (Armed)
-	"rhs_tigr_sts_msv",													//GAZ-233014 (Armed)
+    "rhsgref_BRDM2_msv",
+    "rhsgref_BRDM2_HQ_msv",
+    "rhsgref_BRDM2_ATGM_msv",
+    "rhs_bmd4ma_vdv",
 	"rhs_bmp2d_msv",													//BMP-2D
 	"rhs_bmp2k_msv",													//BMP-2K
 	"rhs_brm1k_msv",													//BRM-1K
+    "rhs_bmp3_msv",
+    "rhs_bmp3_late_msv",
+    "rhs_bmp3m_msv",
+    "rhs_bmd4_vdv" ,
+    "rhs_bmd4ma_vdv",
+    "rhs_bmd2k",
 	"rhs_zsu234_aa",													//ZSU-23-4V
 	"rhs_zsu234_aa",													//ZSU-23-4V
-	"rhs_t80",															//T80
-	"rhs_t80",															//T80
+    "rhs_Ob_681_2",                                                     //Objekt 681 (BMP2 thingy)
+    "rhs_t72bd_tv",
+    "rhs_t72be_tv",
+    "rhs_t72ba_tv",
+    "rhs_t80",															//T80
+    "rhs_t80b",
+	"rhs_t80u",															//T80u
 	"rhs_t90a_tv"														//T90A
 ];
 
@@ -99,7 +121,8 @@ opfor_battlegroup_vehicles = [
 	"RHS_Mi24P_AT_vvsc",												//Mi-24P (AT)
 	"RHS_Mi24V_AT_vvsc",												//Mi-24V (AT)
 	"RHS_Mi8mt_Cargo_vvsc",												//Mi-8MT (Cargo)
-	"RHS_Ka52_vvsc"														//Ka-52
+	"RHS_Ka52_vvsc",													//Ka-52
+    "rhs_mi28n_vvsc"                                                    //Mi-28N
 ];
 
 // All enemy vehicles that can spawn as battlegroups, either assaulting or as reinforcements, at lower enemy combat readiness (aggression levels).
@@ -134,11 +157,13 @@ opfor_choppers = [
 	"RHS_Mi8mt_Cargo_vvsc",												//Mi-8MT (Cargo)
 	"RHS_Mi24P_AT_vvsc",												//Mi-24P (AT)
 	"RHS_Mi24V_AT_vvsc",												//Mi-24V (AT)
-	"RHS_Ka52_vvsc"														//Ka-52
+	"RHS_Ka52_vvsc",													//Ka-52
+    "rhs_mi28n_vvsc"                                                    //Mi-28N
 ];
 
 // Enemy fixed-wings that will need to spawn in the air.
 opfor_air = [
 	"RHS_Su25SM_vvsc",													//Su-25
-	"RHS_Su25SM_KH29_vvsc"												//Su-25 (KH29)
+	"RHS_Su25SM_KH29_vvsc",												//Su-25 (KH29)
+    "RHS_TU95MS_vvs_tambov"
 ];

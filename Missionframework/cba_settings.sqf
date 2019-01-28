@@ -167,6 +167,6 @@ force ace_advanced_ballistics_simulationRadius = 3000;
 
 force ace_pylons_requireEngineer = false;
 force ace_pylons_requireToolkit = false;
-force ace_pylons_searchDistance = 30;
+force ace_pylons_searchDistance = 50;
 
 force ace_repair_engineerSetting_Repair = 0;

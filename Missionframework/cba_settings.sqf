@@ -83,6 +83,10 @@ force ace_nametags_showCursorTagForVehicles = false;
 force ace_nametags_playerNamesViewDistance = 5;
 force ace_nametags_playerNamesMaxAlpha = 0.8;
 
+force ace_cookoff_enable = false;
+force ace_cookoff_ammoCookoffDuration = 0;
+
+
 force ace_common_forceAllSettings = false;
 
 force ace_repair_engineerSetting_Wheel = 0;
@@ -118,7 +122,7 @@ force ace_vehiclelock_LockVehicleInventory = false;
 force ace_vehiclelock_VehicleStartingLockState = -1;
 
 force ace_viewdistance_enabled = false;
-force ace_viewdistance_limitViewDistance = 10000;
+force ace_viewdistance_limitViewDistance = 20000;
 
 force ace_weather_enableServerController = false;
 force ace_weather_useACEWeather = false;

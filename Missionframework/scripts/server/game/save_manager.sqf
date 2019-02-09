@@ -187,17 +187,6 @@ if (!isNil "greuh_liberation_savegame") then {
 
 	setDate [2045, 6, 6, time_of_day, 0];
 
-	private _correct_fobs = [];
-	{
-		private _next_fob = _x;
-		private _keep_fob = true;
-		{
-			if (_next_fob distance (markerpos _x) < 50) exitWith {_keep_fob = false};
-		} forEach sectors_allSectors;
-		if (_keep_fob) then {_correct_fobs pushback _next_fob};
-	} forEach GRLIB_all_fobs;
-	GRLIB_all_fobs = _correct_fobs;
-
 	stats_saves_loaded = stats_saves_loaded + 1;
 
 	private _spawnedBuildings = [];
